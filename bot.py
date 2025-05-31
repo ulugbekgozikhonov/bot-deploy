@@ -2,9 +2,10 @@ import asyncio
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import CommandStart
 import logging
+from config import BOT_TOKEN
 
 logging.basicConfig(level=logging.INFO)
-API_TOKEN = "7731768826:AAH4H9SY_ls0IJJEhdVxXdOyXIIVeKvjkys"
+API_TOKEN = BOT_TOKEN
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
 
